@@ -17,10 +17,21 @@
     </header>
 
     <p><h2>Bonjour à tous</h2></p>
+
+    <h6>Attention, cette page est très moche</h6>
+
     <hr>
     <div class="lorem">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+    <hr>
+
+    <div class="duo"> 
+        <img src="homer-simpson.jpeg">
+        &nbsp;&nbsp;&nbsp;
+        <img src="Homer_Simpson_Infobox.webp">
+    </div>
+
     <hr>
 
     <div class="duo">
@@ -49,48 +60,66 @@
 
     <hr>
 
-    <div class="formulaire">
-        <form action="sign" method="post">
-            <p>
-                <label>Civilité</label>
-                <label>
-                    <input type="radio" name="Civilité" value="M">M 
-                </label>
-                <label>
-                    <input type="radio" name="Civilité" value="Mme">Mme
-                </label>
-                <label>
-                    <input type="radio" name="Civilité" value="Mlle">Mlle
-                </label>
-            </p>
-            <p>
-                <label>Nom</label><br>
-                <input type="text" name="nom">
-            </p>
-            <p>
-                <label>Prénom</label><br>
-                <input type="text" name="prenom">
-            </p>
-            <p>
-                <label>Email</label><br>
-                <input type="email" name="email">
-            </p>
-            <p>
-                <label>Pays</label><br>
-                <select>
-                    <option>France</option>
-                    <option>Allemagne</option>
-                    <option>Belgique</option>
-                    <option>Suisse</option>
-                    <option>Italie</option>
-                    <option>Espagne</option>
-                </select>
-            </p>
-            <p>
-                <button>Valider</button>
-                <button type="reset">Annuler</button>
-            </p>
-        </form>
+    <div>
+        Il faut faire <code>git add .</code> et <code>git commit -m "<i>commentaires</i>"</code> avant de faire un <code>git push</code>
+    </div>
+
+    <hr>
+
+    <div class="duo">
+        <div class="formulaire">
+            <form action="sign" method="post">
+                <p>
+                    <label>Civilité</label>
+                    <label>
+                        <input type="radio" name="Civilité" value="M">M 
+                    </label>
+                    <label>
+                        <input type="radio" name="Civilité" value="Mme">Mme
+                    </label>
+                    <label>
+                        <input type="radio" name="Civilité" value="Mlle">Mlle
+                    </label>
+                </p>
+                <p>
+                    <label>Nom</label><br>
+                    <input type="text" name="nom">
+                </p>
+                <p>
+                    <label>Prénom</label><br>
+                    <input type="text" name="prenom">
+                </p>
+                <p>
+                    <label>Email</label><br>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label>Pays</label><br>
+                    <select>
+                        <option>France</option>
+                        <option>Allemagne</option>
+                        <option>Belgique</option>
+                        <option>Suisse</option>
+                        <option>Italie</option>
+                        <option>Espagne</option>
+                    </select>
+                </p>
+                <p>
+                    <button>Valider</button>
+                    <button type="reset">Annuler</button>
+                </p>
+            </form>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="formulaire">
+            <form action="/subscribe" method="post">
+                <fieldset>
+                    <legend>Tu veux ou tu veux pas ?</legend>
+                    <input type="email" name="email2">
+                    <button>OK</button>
+                </fieldset>
+            </form>
+        </div>
     </div>
 
     <hr>
@@ -103,8 +132,6 @@
     <a href="https://www.amazon.fr" target="_blank">Amazon</a>
     <a href="https://www.facebook.com" target="_blank">Facebook</a>
     <a href="https://www.yahoo.fr" target="_blank">Yahoo</a>
-
-    <h6>Cette page est très moche</h6>
 
     </body>
 

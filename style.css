@@ -54,4 +54,15 @@ p{
     border-width: 3px;
     border-color: green;
     border-style: groove;
+    border-radius: 5%;
+    width: 30%;
+    padding: 10px;
+}
+
+code{
+    background-color:darkgrey;
+}
+
+img{
+    max-height: 300px;
 }

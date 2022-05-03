@@ -2,37 +2,98 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style.css">
         <title>Ma page</title>
     </head>
         
+    <body>
+
+    <h1>TITRE</h1>
+
     <header>
         <a href="#">Accueil</a>
         <a href="#">A propos</a>
         <a href="#">Contact</a>
     </header>
 
-    <p>Bonjour à tous</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Test Test Test</p>
-    <p>5 paragraphes, c'est trop !!!</p>
-    <p>J'ai plus d'idées</p>
+    <p><h2>Bonjour à tous</h2></p>
+    <hr>
+    <div class="lorem">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <hr>
 
-    <ol>
-        <li>Liste 1</li>
-        <li>Liste 2</li>
-        <li>Liste 3</li>
-        <li>Liste 4</li>
-    </ol>
+    <div class="duo">
+        <div class="list">
+            Liste :
+            <ol>
+                <li>Liste 1</li>
+                <li>Liste 2</li>
+                <li>Liste 3</li>
+                <li>Liste 4</li>
+                <li>Liste 5</li>
+            </ol>
+        </div>
+        &nbsp;&nbsp;&nbsp;
+        <div class="list">
+            Liste de course :
+            <ul>
+                <li>Lait</li>
+                <li>Chocolat</li>
+                <li>Sucre</li>
+                <li>Oeufs</li>
+                <li>Vanille</li>
+            </ul>
+        </div>
+    </div>
 
-    Liste de course :
-    <ul>
-        <li>Lait</li>
-        <li>Chocolat</li>
-        <li>Sucre</li>
-        <li>Oeufs</li>
-        <li>Vanille</li>
-    </ul>
+    <hr>
+
+    <div class="formulaire">
+        <form action="sign" method="post">
+            <p>
+                <label>Civilité</label>
+                <label>
+                    <input type="radio" name="Civilité" value="M">M 
+                </label>
+                <label>
+                    <input type="radio" name="Civilité" value="Mme">Mme
+                </label>
+                <label>
+                    <input type="radio" name="Civilité" value="Mlle">Mlle
+                </label>
+            </p>
+            <p>
+                <label>Nom</label><br>
+                <input type="text" name="nom">
+            </p>
+            <p>
+                <label>Prénom</label><br>
+                <input type="text" name="prenom">
+            </p>
+            <p>
+                <label>Email</label><br>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label>Pays</label><br>
+                <select>
+                    <option>France</option>
+                    <option>Allemagne</option>
+                    <option>Belgique</option>
+                    <option>Suisse</option>
+                    <option>Italie</option>
+                    <option>Espagne</option>
+                </select>
+            </p>
+            <p>
+                <button>Valider</button>
+                <button type="reset">Annuler</button>
+            </p>
+        </form>
+    </div>
+
+    <hr>
 
     <footer>
         Pied de page - Ceci est de la bas de la page
@@ -42,5 +103,9 @@
     <a href="https://www.amazon.fr" target="_blank">Amazon</a>
     <a href="https://www.facebook.com" target="_blank">Facebook</a>
     <a href="https://www.yahoo.fr" target="_blank">Yahoo</a>
+
+    <h6>Cette page est très moche</h6>
+
+    </body>
 
 </html>
